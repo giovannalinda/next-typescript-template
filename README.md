@@ -13,7 +13,6 @@
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
-- [Framer Motion](https://www.framer.com/docs)
 - [Commitlint](https://commitlint.js.org/#/)
 
 ## Getting Started
