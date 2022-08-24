@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Hi there! 👋
+
+> This project was developed with care and in the best way I could with the knowledge I have, I hope you enjoy it! 🥳
+## What is inside?
+
+- [Next](https://nextjs.org/docs)
+- [ReactJS](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Styled Components](https://styled-components.com/docs)
+- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
+- [Jest](https://jestjs.io/docs/getting-started)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
+- [Husky](https://github.com/typicode/husky)
+- [Framer Motion](https://www.framer.com/docs)
+- [Commitlint](https://commitlint.js.org/#/)
 
 ## Getting Started
 
-First, run the development server:
+### Install dependencies:
+
+```bash
+yarn
+```
+
+or
+
+```bash
+npm install
+```
+
+### Run development server
+
+```bash
+yarn dev
+```
+
+or 
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+└── src
+    ├── components
+    ├── pages
+    ├── styles
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+| Folder         | Description                                          |
+| ----------     | -------------------------------------------          |
+| **components** | Page components                                      |
+| **pages**      | Pages components                                     |
+| **styles**     | Application styles                                   |
 
-## Learn More
+## Conventions
 
-To learn more about Next.js, take a look at the following resources:
+### Components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+└── <MyComponent>
+    ├── <MyComponent>.tsx
+    ├── <MyComponent>.test.tsx
+    ├── <MyComponent>.styled.ts
+    ├── <MyComponent>.stories.tsx
+    └── index.ts
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+| Files           | Description                                    |
+| --------------- | ---------------------------------------------- |
+| **.tsx**        | Component implementation                       |
+| **.test.tsx**   | Component tests                                |
+| **.styled.ts**  | Component stylesheet using `styled-components` |
+| **.stories.tsx**| Storybook component                            |
+| **index.ts**    | File to export the component                   |
 
-## Deploy on Vercel
+## Commands
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `dev`: run development server
+- `build`: creates the production build version
+- `lint`: runs the linter in all components and pages
+- `test`: runs jest to test all components and pages
+- `storybook`: runs docs with storybook
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">Made with 💜 by Giovanna</p>
