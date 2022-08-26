@@ -13,7 +13,6 @@
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
-- [Framer Motion](https://www.framer.com/docs)
 - [Commitlint](https://commitlint.js.org/#/)
 
 ## Getting Started
@@ -48,6 +47,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ```
 └── src
+    ├── __helpers__
     ├── components
     ├── pages
     ├── styles
@@ -55,6 +55,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 | Folder         | Description                                          |
 | ----------     | -------------------------------------------          |
+| **helpers**    | Functions to handle the tests                        |
 | **components** | Page components                                      |
 | **pages**      | Pages components                                     |
 | **styles**     | Application styles                                   |
