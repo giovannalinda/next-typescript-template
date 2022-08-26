@@ -47,6 +47,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ```
 └── src
+    ├── __helpers__
     ├── components
     ├── pages
     ├── styles
@@ -54,6 +55,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 | Folder         | Description                                          |
 | ----------     | -------------------------------------------          |
+| **helpers**    | Functions to handle the tests                        |
 | **components** | Page components                                      |
 | **pages**      | Pages components                                     |
 | **styles**     | Application styles                                   |
